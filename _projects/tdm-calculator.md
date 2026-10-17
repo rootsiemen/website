@@ -7,7 +7,7 @@ alt: 'LA TDM Calculator'
 image-hero: /assets/images/projects/TDM-calculator-hero.png
 leadership:
   - name: Bonnie Wolfe
-    github-handle:
+    github-handle: ExperimentsInHonesty
     role: Agile Coach / Primary Stakeholder Relationship Manager
     links:
       slack: 'https://hackforla.slack.com/team/DE1HK083W'
