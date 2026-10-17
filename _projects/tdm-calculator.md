@@ -14,7 +14,7 @@ leadership:
       github: 'https://github.com/ExperimentsInHonesty'
     picture: https://avatars.githubusercontent.com/ExperimentsInHonesty
   - name: John Darragh
-    github-handle:
+    github-handle: entrotech
     role: Architect
     links:
       slack: 'https://hackforla.slack.com/team/UFLDX9V19'
