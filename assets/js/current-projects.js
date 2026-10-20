@@ -223,6 +223,12 @@ function retrieveProjectDataFromCollection() {
                 project.languages = Array.from(uniqueLanguages);
             }
         }
+
+        // Dockerfile is not a project language and should not be displayed in
+        // the language filter or on project cards/pages (issue #8624).
+        if (project.languages) {
+            project.languages = project.languages.filter(language => language !== 'Dockerfile');
+        }
     });
 
     return projectData;
